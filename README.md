@@ -6,13 +6,18 @@ This is the release for paper "PoseFlow: A Deep Motion Representation for Unders
 1. ##### Download  [CMU Panoptic dataset](http://domedb.perception.cs.cmu.edu/), we use "Pose" subset
 
 2. ##### Select images and generate ground truth poseflow 
-
+2.1 mat file for the dataset
 ```
 run scripts/get_continuous_data.m 
+```
+you can skip this step by downloading the results form [Google Drive](https://drive.google.com/file/d/1_5XtfKWhMz4RlhJq-jJWjpA9B6Z2C312/view?usp=sharing)
+2.2 sampling the data with random duration
+```
 run scripts/generate_DS_database.m  # down sampling the data
+```
+2.3 generate poseflow ground truth
 run scripts/generate_DS_poseFlow448_data.m # generate ground truth
 ```
-
 3. ##### Prepare caffe, we use [Caffe for FlowNet2 ](https://github.com/lmb-freiburg/flownet2)
 
 4. ##### Generate hmdb file before training 
