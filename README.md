@@ -50,6 +50,8 @@ run scripts/test_epe.m
 
 The trained model can be downloaded from  [Google Drive](https://drive.google.com/file/d/1fREbtXEl5QILds6WCDu8jOS2q0DPq5gg/view?usp=sharing)
 
+## gitee
+code has also been released in [gitee](https://gitee.com/gyguo95/PFN)
 ## Citation
 
 When using the code in your research work, please cite the following paper:
